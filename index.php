@@ -9,5 +9,11 @@
  *
  * @author Dan Taylor
  */
+
+require_once('class/db.php');
+require_once('class/config.php');
+
+$config = new config('etc/config.ini');
+
 ?>
 Hello TFMS Redux
